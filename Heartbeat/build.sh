@@ -1,0 +1,1 @@
+g++ -std=c++11 FFmpegDecoder.cpp RPPG.cpp opencv.cpp Baseline.cpp Heartbeat.cpp -lavformat -lavcodec -lavutil -lswscale -o heartbeat -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_objdetect -lopencv_video -lopencv_videoio
