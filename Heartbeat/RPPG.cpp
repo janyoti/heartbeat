@@ -45,6 +45,7 @@ bool RPPG::load(const rPPGAlgorithm algorithm,
     this->rescanFrequency = rescanFrequency;
     this->samplingFrequency = samplingFrequency;
     this->timeBase = timeBase;
+    this->faceValid = false;
     
     // Load classifiers
     classifier.load(classifierPath);
